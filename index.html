@@ -4,9 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <title>Assignment</title>
   </head>
   <body>
-    <h1>Assignment</h1>
+    <!--------------Navbar---------------->
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Page-1</a></li>
+                  <li><a class="dropdown-item" href="#">Page-2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Page-3</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog-1</a></li>
+                  <li><a class="dropdown-item" href="#">Blog-2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blog-3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--------------Button---------------->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <button class="w-100 btn btn-primary btn-lg">Submit</button> <br />
+          <br />
+          <button class="w-75 btn btn-secondary btn-lg">Submit</button
+          ><br /><br />
+          <button class="w-50 btn btn-danger btn-lg">Submit</button><br /><br />
+          <button type="button" class="btn btn-info btn-lg">Submit</button
+          ><br /><br />
+          <button type="button" class="btn btn-dark btn-lg">Submit</button
+          ><br /><br />
+          <button type="button" class="btn btn-light btn-lg">Submit</button
+          ><br /><br />
+          <button type="button" class="btn btn-success btn-sm">Submit</button
+          ><br /><br />
+          <button type="button" class="btn btn-outline-primary btn-lg">
+            Submit</button
+          ><br /><br />
+          <button type="button" class="btn btn-link">Link</button><br /><br />
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+          <button class="btn btn-primary" type="submit">Button</button>
+          <input class="btn btn-primary" type="button" value="Input" />
+          <input class="btn btn-primary" type="submit" value="Submit" />
+          <input class="btn btn-primary" type="reset" value="Reset" />
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-primary btn-lg">Submit</button>
+          <button class="btn btn-outline-secondary btn-lg">Submit</button>
+          <button class="btn btn-outline-danger btn-lg">Submit</button>
+          <button class="btn btn-info btn-lg">Submit</button>
+          <button class="btn btn-dark btn-lg">Submit</button>
+          <button class="btn btn-light btn-lg">Submit</button>
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Assignment</h1>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
