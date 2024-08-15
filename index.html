@@ -13,7 +13,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> Navbar</a>
+          <a class="navbar-brand" href="#"> Assignment</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -97,7 +97,9 @@
     </div>
 
     <!--------------Button---------------->
-    <div class="container">
+
+    <div class="container mt-5">
+      <h1>Button</h1>
       <div class="row justify-content-center">
         <div class="col-6">
           <button class="w-100 btn btn-primary btn-lg">Submit</button> <br />
@@ -134,10 +136,333 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <h1>Assignment</h1>
+
+    <!--------------Card---------------->
+    <div class="container mt-5">
+      <h1>Card</h1>
+      <div class="row justify-content-center">
+        <div class="col-6 p-1">
+          <div class="card w-50">
+            <img
+              class="card-img-top"
+              src="https://placehold.co/600x400/000000/FFF"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Order Management</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------Form---------------->
+    <div class="container mt-5 p-5 bg-light">
+      <h1>Registration Form</h1>
+      <h5>Please fill in the form below</h5>
+
+      <div class="row justify-content-center mt-5">
+        <div class="col-12">
+          <form>
+            <!--------------Full Name---------------->
+            <label for="exampleName" class="form-label">Full Name</label>
+            <div class="row">
+              <div class="col-6">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFirstName"
+                    aria-describedby="firstHelp"
+                  />
+                  <div id="firstName" class="form-text">First Name</div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleLastName"
+                    aria-describedby="lastHelp"
+                  />
+                  <div id="firstName" class="form-text">Last Name</div>
+                </div>
+              </div>
+            </div>
+            <!--------------Address---------------->
+            <div class="row mt-3 bg-white">
+              <div class="row">
+                <div class="mb-3">
+                  <label for="exampleAddress" class="form-label">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputAddress"
+                    aria-describedby="addressHelp"
+                  />
+                  <div id="addressHelp" class="form-text">Street Address.</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputCity"
+                      aria-describedby="cityHelp"
+                    />
+                    <div id="cityHelp" class="form-text">City</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mb-3">
+                    <select name="" id="" class="form-select">
+                      <option value="1" selected>Select</option>
+                      <option value="2">Bangladesh</option>
+                      <option value="3">India</option>
+                      <option value="4">Pakistan</option>
+                    </select>
+                    <div id="countryHelp" class="form-text">Country</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--------------Email & Phone---------------->
+            <div class="row mt-4">
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleInputPhone" class="form-label"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleInputPhone"
+                    aria-describedby="phoneHelp"
+                  />
+                  <div id="phoneHelp" class="form-text">
+                    We'll never share your phone number with anyone else.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--------------List Group---------------->
+    <div class="container mt-5">
+      <h1>List Group</h1>
+      <div class="col-4 mt-4">
+        <div class="list-group">
+          <button
+            type="button"
+            class="list-group-item list-group-item-action active"
+            aria-current="true"
+          >
+            The current button
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            A second button item
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            A third button item
+          </button>
+          <button type="button" class="list-group-item list-group-item-action">
+            A fourth button item
+          </button>
+          <button
+            type="button"
+            class="list-group-item list-group-item-action"
+            disabled
+          >
+            A disabled button item
+          </button>
+        </div>
+      </div>
     </div>
 
-    <script src="js/bootstrap.min.js"></script>
+    <!--------------Progress bar---------------->
+    <div class="container mt-4">
+      <h2>Progress bar</h2>
+      <div class="row">
+        <div class="col-12">
+          <div class="progress" style="height: 30px">
+            <div class="progress-bar" style="width: 20%">20% done</div>
+          </div>
+          <br />
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Success example"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-success" style="width: 25%">25%</div>
+          </div>
+          <br />
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Info example"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-info text-dark" style="width: 50%">
+              50%
+            </div>
+          </div>
+          <br />
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Warning example"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-warning text-dark" style="width: 75%">
+              75%
+            </div>
+          </div>
+          <br />
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Danger example"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------Pagination---------------->
+    <div class="container mt-4">
+      <h2>Pagination</h2>
+      <div class="row justify-content-center">
+        <div class="col-4 p-3">
+          <nav aria-label="Page navigation Example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!--------------Table--------------->
+    <div class="container mt-4">
+      <h2>Table</h2>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Sl No</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Karim</td>
+            <td>Khan</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--------------Dropdown---------------->
+    <div class="container mt-4">
+      <h2>Dropdown</h2>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
